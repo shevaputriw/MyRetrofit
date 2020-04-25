@@ -33,8 +33,13 @@ public class MainActivity extends AppCompatActivity {
         textViewResult = findViewById(R.id.text_title);
         tambah = findViewById(R.id.tambah_data);
 
+//        Retrofit retrofit = new Retrofit.Builder()
+//                .baseUrl("https://retrofitsheva.000webhostapp.com/Api/")
+//                .addConverterFactory(GsonConverterFactory.create())
+//                .build();
+
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://retrofitsheva.000webhostapp.com/Api/")
+                .baseUrl("http://192.168.43.235/retrofit/Api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

@@ -25,6 +25,14 @@ public class Post {
         this.no_telp = no_telp;
     }
 
+    public Post(String id_siswa, String nama, String alamat, String jenis_kelamin, String no_telp) {
+        this.id_siswa = id_siswa;
+        this.nama = nama;
+        this.alamat = alamat;
+        this.jenis_kelamin = jenis_kelamin;
+        this.no_telp = no_telp;
+    }
+
     public String getId_siswa() {
         return id_siswa;
     }
